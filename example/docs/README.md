@@ -1,21 +1,26 @@
-# Windows Batch Files Overview
+# Windows Batch Files
+## Overview :hammer:
 
-# Linux Documentation :penguin:
-## Overview 
-
-Linux for *Open Source Development* and *GNU* oriented architecture.
+Windows Batch Files for *Windows system automation* and *Automation of different processes execution*.
 
 ---
 
 | Developer | Action |
 | ----------- | ----------- |
-| Miguel Estrada Murillo | Windows Sub-system for Linux, brief documentation and comprehension |
+| Miguel Estrada Murillo | Windows Batch Files Quick Overview|
 
-![Linux distribution logo](Images/Linux-scaled.jpg)
+![Windows Bat file icon](img/bat-file-icon.png)
 
-    The following documentation is a brief summarry upon what can be done with the Windows Subsystem Environment as an Operating System.
+From **CMD** commands to running different languages, tests or applications in a single click. 
 
-Before starting:
+
+    The following documentation is a brief summarry upon what can be done with Windows Batch Files.
+
+---
+
+## Example :mag:
+
+Before starting...
 
     To check your Windows version and build number, select Windows logo key + R, type winver, select OK. You can update to the latest Windows version by selecting
     
