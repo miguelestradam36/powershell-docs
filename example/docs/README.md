@@ -15,37 +15,42 @@
     From CMD commands to running different languages, tests or applications in a single click. 
     The following example, is to demonstrate how Powershell and Batch Files can be used.
 
----
-
-## Example :mag:
-
 **Before starting...** I will explain different ways from which a Windows Batch File can be executed from **Powershell**
 
 ---
-
-### From Powershell directly
-
-Step by step guide:
-1. Run the following command on Powershell under **admin** priviliges: `Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux`
-2. Then, under the same environment, run `wsl --install`
-
+## Example :mag:
 ---
 
-### From Graphical Interface
-
-`Start > Settings > Windows Update > Check for updates.`
+### **From Powershell directly**
 
 Step by step guide:
-1. Run the following command on Powershell under **admin** priviliges: `Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux`
-2. Then, under the same environment, run `wsl --install`
+1. Run the following command on Powershell under **admin** priviliges: `Start-Process -FilePath “BatchFilePath”`
 
 
----
+### **From Graphical Interface**
 
-### From CMD 
+How to reach:
 
-`Start > Settings > Windows Update > Check for updates.`
+`Start > Windows Powershell`
+
+*Once logged* inside Powershell, please repeat the upper mentioned process.
+
+
+### **From CMD** 
+
+#### **How to call CMD from the Powershell Console:**
+
+How to reach:
+
+`Start > CMD`
+
+or
+
+`Start-Process -FilePath cmd.exe`
+
+#### **To call PowerShell from the cmd just type PowerShell.exe as shown below**
+
+`PowerShell.exe`
 
 Step by step guide:
-1. Run the following command on Powershell under **admin** priviliges: `Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux`
-2. Then, under the same environment, run `wsl --install`
+1. Run the following command on Powershell under **admin** priviliges: `Start-Process -FilePath “BatchFilePath”`
