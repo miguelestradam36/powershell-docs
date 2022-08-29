@@ -1,7 +1,8 @@
-# Windows Batch Files
-## Overview :hammer:
+# Poweshell usage | Example :paperclip:
 
-Windows Batch Files for *Windows system automation* and *Automation of different processes execution*.
+## Let's see how it works :hammer:
+
+**Windows Batch Files** for *Windows system automation* and *Automation of different processes execution*.
 
 ---
 
@@ -11,27 +12,40 @@ Windows Batch Files for *Windows system automation* and *Automation of different
 
 ![Windows Bat file icon](img/bat-file-icon.png)
 
-From **CMD** commands to running different languages, tests or applications in a single click. 
-
-
-    The following documentation is a brief summarry upon what can be done with Windows Batch Files.
+    From CMD commands to running different languages, tests or applications in a single click. 
+    The following example, is to demonstrate how Powershell and Batch Files can be used.
 
 ---
 
 ## Example :mag:
 
-Before starting...
+**Before starting...** I will explain different ways from which a Windows Batch File can be executed from **Powershell**
 
-    To check your Windows version and build number, select Windows logo key + R, type winver, select OK. You can update to the latest Windows version by selecting
-    
+---
+
+### From Powershell directly
+
+Step by step guide:
+1. Run the following command on Powershell under **admin** priviliges: `Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux`
+2. Then, under the same environment, run `wsl --install`
+
+---
+
+### From Graphical Interface
+
 `Start > Settings > Windows Update > Check for updates.`
 
 Step by step guide:
 1. Run the following command on Powershell under **admin** priviliges: `Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux`
 2. Then, under the same environment, run `wsl --install`
 
-#### You should be good to go... but if not
 
-    The above command only works if WSL is not installed at all, if you run wsl --install and see the WSL help text, please try running:
+---
 
-`wsl --list --online` to see a list of available distros and run `wsl --install -d <DistroName>` to install a distro.
+### From CMD 
+
+`Start > Settings > Windows Update > Check for updates.`
+
+Step by step guide:
+1. Run the following command on Powershell under **admin** priviliges: `Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux`
+2. Then, under the same environment, run `wsl --install`

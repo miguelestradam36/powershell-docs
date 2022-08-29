@@ -1,32 +1,21 @@
-# Powershell Overview
-
-# Linux Documentation :penguin:
-## Overview 
-
-Linux for *Open Source Development* and *GNU* oriented architecture.
-
+# Windows Batch Files Documentation :book:
+## Overview :dart:
 ---
 
 | Developer | Action |
 | ----------- | ----------- |
-| Miguel Estrada Murillo | Windows Sub-system for Linux, brief documentation and comprehension |
+| Miguel Estrada Murillo | Description of what Batch Files are and how Powershell can be used. |
 
-![Linux distribution logo](Images/Linux-scaled.jpg)
-
-    The following documentation is a brief summarry upon what can be done with the Windows Subsystem Environment as an Operating System.
+    The following documentation is a brief summarry upon what can be done with the Powershell and Batch files.
 
 Before starting:
 
-    To check your Windows version and build number, select Windows logo key + R, type winver, select OK. You can update to the latest Windows version by selecting
-    
-`Start > Settings > Windows Update > Check for updates.`
+**Windows Batch Files** are used for the following:.
 
-Step by step guide:
-1. Run the following command on Powershell under **admin** priviliges: `Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux`
-2. Then, under the same environment, run `wsl --install`
+- [x] Doing a disk partition
+- [x] Using the GRUB
+- [x] Selecting a primary operating system
 
-#### You should be good to go... but if not
+![Windows Batch File icon](img/batch-file.jpg)
 
-    The above command only works if WSL is not installed at all, if you run wsl --install and see the WSL help text, please try running:
-
-`wsl --list --online` to see a list of available distros and run `wsl --install -d <DistroName>` to install a distro.
+Even though **PowerShell** and **Batch** are different languages, both can be integrated into each other and helps to call and execute each other tasks
